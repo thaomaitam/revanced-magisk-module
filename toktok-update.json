@@ -1,0 +1,6 @@
+{
+  "version": "v40.8.3 (patches 5.31.2)",
+  "versionCode": 2,
+  "zipUrl": "https://github.com/thaomaitam/revanced-magisk-module/releases/download/2/toktok-revanced-magisk-v40.8.3-arm64-v8a.zip",
+  "changelog": "https://raw.githubusercontent.com/thaomaitam/revanced-magisk-module/update/build.md"
+}
