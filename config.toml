@@ -3,10 +3,8 @@ parallel-jobs = 1
 
 [TikTok]
 enabled = true
-patches-source = "inotia00/revanced-patches"
+patches-source = "extended"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/"
-included-patches = "'remove_ads' 'hide_live' 'hide_shop' 'hide_story' 'hide_image' 'Feed filter' 'Playback speed' 'clear_display' 'REMEMBERED_SPEED' 'simspoof' 'simspoof_iso' 'simspoof_mccmnc' 'simspoof_op_name' 'Download no watermark advanced'"
-
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
+arch = "all"
+build-mode = "both"
+# Không cần included-patches nếu muốn dùng toàn bộ patch mặc định (khuyến nghị)
