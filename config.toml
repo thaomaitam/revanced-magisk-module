@@ -67,9 +67,18 @@ dpi = "120-640dpi"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [TikTok]
-enabled = false
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-included-patches = "'SIM spoof'"
+enabled = true
+build-mode = "both"  # Có thể là "apk", "module" hoặc "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tiktok/"
+arch = "all"
+included-patches = """
+  'DownloadsPatch'
+  'FeedFilterPatch'
+  'PlaybackSpeedPatch'
+  'ShowSeekbarPatch'
+  'RememberClearDisplayPatch'
+  'SIM Spoof'
+"""
 
 [Messenger]
 enabled = false
