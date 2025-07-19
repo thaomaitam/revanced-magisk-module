@@ -11,17 +11,17 @@ enabled = true
 arch = "all"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/"
-included-patches = """
-  'DownloadsPatch'
-  'FeedFilterPatch'
-  'PlaybackSpeedPatch'
-  'ShowSeekbarPatch'
-  'RememberClearDisplayPatch'
-  'SIM Spoof'
-  'Disable login requirement'
-  'Fix Google login'
-  'Settings'
-"""
+included-patches = [
+  "DownloadsPatch",
+  "FeedFilterPatch",
+  "PlaybackSpeedPatch",
+  "ShowSeekbarPatch",
+  "RememberClearDisplayPatch",
+  "SIM Spoof",
+  "Disable login requirement",
+  "Fix Google login",
+  "Settings"
+]
 
 [IconPackStudio]
 enabled = false
