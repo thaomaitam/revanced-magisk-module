@@ -3,10 +3,10 @@ parallel-jobs = 1
 
 [TikTok]
 enabled = true
-patches-source = "https://github.com/inotia00/revanced-patches"
+patches-source = "inotia00/revanced-patches"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/"
 arch = "all"
-build-mode = "both"
+build-mode = "module"
 # Không cần khai báo included-patches để sử dụng toàn bộ patch mặc định mới nhất từ Extended
 
 # Nếu muốn thêm các app khác, có thể bổ sung block cấu hình tương tự bên dưới
