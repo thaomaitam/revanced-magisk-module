@@ -17,7 +17,3 @@ included-patches = [
   "Fix Google login",
   "Settings"
 ]
-
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
