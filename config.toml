@@ -3,7 +3,7 @@ parallel-jobs = 1
 
 [TikTok]
 enabled = true
-patches-source = "extended"
+patches-source = "inotia00/revanced-patches"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/"
 arch = "all"
 build-mode = "both"
